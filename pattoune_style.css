@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    font-family: "Muli";
+}
+
+@font-face {
+    font-family: "Muli";
+    src: url("./font/Muli-VariableFont_wght.ttf");
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+li {
+    padding: 10px;
+}
+
+hr {
+    margin: 0;
+}
+
+
+/* HEADER######################################################################################### */
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 138px;
+
+}
+
+.logoPattoune {
+    display: flex;
+    border-bottom: solid white;
+    border-right: solid white;
+    width: 278px;
+    height: 138px;
+    background-color: #626F78; 
+    z-index: 1; 
+
+}
+
+#imgLogo {
+    height: auto;
+    width: 278px;
+
+}
+
+.rogueOne {
+    display :flex;
+    height: 100%;
+    flex-direction: column;
+    font-size: 40px;
+    width: 100%;
+
+}
+
+.titrePattouneDashboard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+    
+}
+
+.logoMail1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#enveloppe {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+
+}
+
+#name {
+    font-size: 20px; 
+
+}
+
+#arrow {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 40px;
+
+}
+
+.titreDashboard {
+    display: flex;
+    align-items: center;
+    background-color: #626F78;
+    width: 100%;
+    height:50%;
+    color: #3498DB;
+
+}
+
+.notification {
+    height: 100%;
+    width: auto;
+}
+/* END HEADER#################################################################################### */
+
+
+/* MENU D'ICONES DE GAUCHE####################################################################### */
+.principale {
+    display: flex;
+    flex-wrap: nowrap;
+     
+}
+
+#LeftMenu {
+    width: 284px;
+    background-color: #626F78;
+
+}
+
+li img {
+    width: 40px;
+    height: auto;
+    padding-bottom: 10px;
+    margin-right: 10px;
+
+}
+
+.btn {
+    width: 260px;
+}
+
+.btn:hover {
+    background-color:#2ab296;
+    transition-duration: 1s;
+    border-radius: 4px;
+
+}
+
+.rubrique {
+    display: flex;
+    align-items: center;
+
+}
+
+.rubrique:hover {
+    color: white;
+
+}
+
+
+/* END MENU D'ICONES DE GAUCHE############################################################################## */
+
+
+
+/* DASHBOARD CRM###################################################################################### */
+
+/* 1ERE PARTIE CELLULES CRM#################### */
+#dashBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AAD6C2;
+    width: 1636px;
+
+}
+
+#cellules {
+    height: 50%;
+    width: 82%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#cClient {
+    background-color: #E96870;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+#cChiffreAffaire {
+    background-color: #E96870;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+ 
+#cMessage {
+    background-color: #E96870;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+#cChirurgie {
+    background-color: #E96870;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+#cRadio {
+    background-color: #E96870;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+#cScanner {
+    background-color: #E96870;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+#cIRM {
+    background-color: #E96870;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+#cCardio {
+    background-color: #E96870;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.valeurCellule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    padding: 10px;
+    
+}
+
+.cTop {
+    text-align: center;
+    font-size: 19px;
+
+}
+
+.cMiddle {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.cEuros {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.cBottom {
+    text-align: left;
+    font-size: 19px;
+    
+}
+
+/* END 1ERE PARTIE CELLULES CRM###################### */
+
+
+/* 2EME PARTIE TABLEAU CRM########################### */
+#tableau {
+    height: 50%;
+    width: 100%;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 110px;
+    table-layout: auto;
+    width: 70%;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+
+}
+
+th {
+    border: thin solid #626F78;
+    background-color: #CCD0E0;
+    color: #626F78;
+    text-align: center;
+    height: 40px;
+
+}
+
+td {
+    border: thin solid #626F78;
+    text-align: center;
+    height: 40px;
+    background-color: white;
+   
+}
+/* END 2EME PARTIE TABLEAU CRM############################ */
+
+
+/* END DASHBOARD CRM################################################################################ */
+
+

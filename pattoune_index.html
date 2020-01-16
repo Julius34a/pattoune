@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/ae1eb6ffc2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="pattoune_style.css" />
+    <title>Pattoune</title>
+</head>
+
+<body>
+
+
+    <!--HEADER--------------------------------------------------------------------->
+        <header id="header">
+            <div class=logoPattoune>
+                <img id="imgLogo" src="images/logo.png"/>
+            </div>
+                <div class=rogueOne>
+                    <div class=titrePattouneDashboard>
+                        <p>PATTOUNE DASHBOARD</p>
+                            <div class=logoMail1 ><img id="enveloppe" src="images/mail_1.png">
+                                <div><p id="name">John Doe<i id="arrow" class="fas fa-arrow-down"></i></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="titreDashboard">
+                        <P>DASHBOARD</P>
+                        <div class=notification>
+                        </div>
+                    </div>
+                </div>
+        </header>
+    <!--END HEADER------------------------------------------------------------------------>
+
+
+
+    <!--MENU GAUCHE ICONES ET RUBRIQUES---------------------------------------------------------------------------->
+    <div class=principale>
+        <section id=LeftMenu>
+            <ul>
+                <hr>
+                    <li class="btn">
+                        <a class=rubrique href="#"><img src="images/johnDoe.png" alt="" />John Doe<br>Administrateur</a>
+                    </li>
+                <hr>
+                
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/accueil.png" alt="" />Accueil</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/categorie.png" alt="" />Catégorie professionnelle</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/véto.png" alt="" />Profil professionnel</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/liste.png" alt="" />Liste de professionnels</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/mail.png" alt="" />Messagerie professionnelle</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/chat.png" alt="" />Profil animal</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/liste.png" alt="" />Liste de clients</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/planning.png" alt="" />Planning de rendez-vous</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/ordonnance.png" alt="" />Ordonnances</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/factures.png" alt="" />Factures</a>
+                </li>
+
+                <li class="btn">
+                    <a class=rubrique href="#"><img src="images/parametres.png" alt="" />Paramètres</a>
+                </li>
+            </ul>
+        </section>
+    <!--END MENU GAUCHE ICONES ET RUBRIQUES---------------------------------------------------------------------------->
+
+    
+    
+    <!--CRM PAGE PRINCIPALE---------------------------------------------------------------------------->
+        <div id="dashBoard">
+
+    <!--1ERE PARTIE CRM CELLULES---------------------------------------------------------------------------->
+            <div id="cellules">
+
+                <div id=cClient>
+                    <div class="valeurCellule, cTop">Nouveaux clients du mois</div>
+                    <div class="valeurCellule, cMiddle"></div>
+                    <div class="valeurCellule, cBottom"></div>
+                </div>
+
+                <div id=cChiffreAffaire>
+                    <div class="valeurCellule, cTop">Chiffre d'affaires du mois</div>
+                    <div class="valeurCellule, cEuros"></div>
+                    <div class="valeurCellule, cBottom"></div>
+                </div>
+
+                <div id=cMessage>
+                    <div class="valeurCellule, cTop">Nouveaux messages Pro</div>
+                    <div class="valeurCellule, cMiddle"></div>
+                    <div></div>
+                </div>
+
+                <div id=cChirurgie>
+                    <div class="valeurCellule, cTop">Chirurgies du mois</div>
+                    <div class="valeurCellule, cMiddle"></div>
+                    <div class="valeurCellule, cBottom"></div>
+                </div>
+
+                <div id=cRadio>
+                    <div class="valeurCellule, cTop">Radios du mois</div>
+                    <div class="valeurCellule, cMiddle"></div>
+                    <div class="valeurCellule, cBottom"></div>
+                </div>
+
+                <div id=cScanner>
+                    <div class="valeurCellule, cTop">Scanners du mois</div>
+                    <div class="valeurCellule, cMiddle"></div>
+                    <div class="valeurCellule, cBottom"></div>
+                </div>
+
+                <div id=cIRM>
+                    <div class="valeurCellule, cTop">IRM du mois</div>
+                    <div class="valeurCellule, cMiddle"></div>
+                    <div class="valeurCellule, cBottom"></div>
+                </div>
+
+                <div id=cCardio>
+                    <div class="valeurCellule, cTop">Examens cardios du mois</div>
+                    <div class="valeurCellule, cMiddle"></div>
+                    <div class="valeurCellule, cBottom"></div>
+                </div>
+
+            </div>
+    <!--END 1ERE PARTIE CRM CELLULES---------------------------------------------------------------------------->
+
+
+    <!--2EME PARTIE CRM TABLEAU---------------------------------------------------------------------------->
+            <div id="tableau">
+                <table>
+
+                    <thead>
+                        <tr><!-- Row 1 -->
+                            <th>VETERINAIRE</th>
+                            <th>SALLE</th>
+                            <th>ANIMAL</th>
+                            <th>INTERVENTION</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr><!-- Row 2 -->
+                            <td class="cDR"><strong></strong></td>
+                            <td class="cRoom"></td>
+                            <td class=cPseudo></td>
+                            <td><strong>Orthopédie</strong></td>
+                        </tr>
+                        <tr><!-- Row 3 -->
+                            <td class="cDR"><strong></strong></td>
+                            <td class="cRoom"></td>
+                            <td class=cPseudo></td>
+                            <td><strong>Stérilisation</strong></td>
+                        </tr>
+                        <tr><!-- Row 4 -->
+                            <td class="cDR"><strong></strong></td>
+                            <td class="cRoom"></td>
+                            <td class=cPseudo></td>
+                            <td><strong>Stérilisation</strong></td>
+                        </tr>
+                        <tr><!-- Row 5 -->
+                            <td class="cDR"><strong></strong></td>
+                            <td class="cRoom"></td>
+                            <td class=cPseudo></td>
+                            <td><strong>Orthopédie</strong></td>
+                        </tr>
+                        <tr><!-- Row 6 -->
+                            <td class="cDR"><strong></strong></td>
+                            <td class="cRoom"></td>
+                            <td class=cPseudo></td>
+                            <td><strong>Ablation tumeur ophtalmique</strong></td>
+                        </tr>
+                    </tbody>
+                
+                </table>
+            </div>
+
+    <!--END 2EME PARTIE CRM TABLEAU---------------------------------------------------------------------------->
+
+        </div> 
+    </div>
+
+
+    <!--END CRM PAGE PRINCIPALE---------------------------------------------------------------------------->
+   
+    <script src="pattoune.js"></script> 
+    
+</body>
+</html>
